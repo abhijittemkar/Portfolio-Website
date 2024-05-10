@@ -86,7 +86,7 @@ management.
 • Designed an interactive image grid interface for browsing uploaded photos, providing users with a visually appealing and intuitive browsing experience.
 • Implemented a search bar for users to search for images based on their names or tags, enhancing accessibility and organization within the application."
               ghLink={dobby_galleryGithubLink}
-              // demoLink="https://editor.soumya-jit.tech/"
+              demoLink="https://dobby-gallery-app.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -101,7 +101,7 @@ management.
 • Implemented robust backend functionalities, including user authentication, content management, and analytics, ensuring smooth platform operation.
 "
               ghLink={studynotionGithubLink}
-              // demoLink="https://editor.soumya-jit.tech/"
+              demoLink="https://studynotion-app-one.vercel.app/"
             />
           </Col>
         </Row>
