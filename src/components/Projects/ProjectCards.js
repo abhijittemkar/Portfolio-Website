@@ -21,9 +21,20 @@ function ProjectCards(props) {
       >
         <Card.Title className="purple">{props.title}</Card.Title>
         <Card.Text
-          style={{ textAlign: "justify", flex: "1 auto", marginTop: "5px" }}
+          style={{
+            textAlign: "initial",
+            flex: "1 auto",
+            marginTop: "5px",
+            padding: "5px",
+          }}
         >
-          <pre style={{ whiteSpace: "pre-wrap" }}>{props.description}</pre>
+          <pre
+            style={{ whiteSpace: "pre-wrap", padding: "0px", margin: "0px" }}
+          >
+            {props.description.map((desc, idx) => (
+              <li key={idx}>{desc}</li>
+            ))}
+          </pre>
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
