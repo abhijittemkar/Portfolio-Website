@@ -7,6 +7,8 @@ import game from "../../Assets/Projects/Gameplay.png";
 import dobbyGallery from "../../Assets/Projects/dobby_gallery.png";
 import newsApp from "../../Assets/Projects/newsApp.png";
 import studynotion from "../../Assets/Projects/studynotion.png";
+import hotel1 from "../../Assets/Projects/hotel1.jpeg";
+import hotel2 from "../../Assets/Projects/hotel2.jpeg";
 import {
   dobby_galleryGithubLink,
   ecommerce_appGithubLink,
@@ -38,7 +40,6 @@ const projectData = [
     description: [
       "Developed a news browsing iOS app independently using SwiftUI and Combine, showcasing proficiency in modern iOS development.",
       "Designed and implemented core features such as article fetching, favourites management, and sharing, emphasizing user-centric design.",
-      "Demonstrated problem-solving skills in debugging and maintaining codebase to ensure a polished and highquality application.",
       "Integrated audio effects and background music to enhance gameplay experience.",
       "Optimized game performance and graphics for smooth gameplay across various devices.",
     ],
@@ -85,6 +86,19 @@ const projectData = [
     ],
     ghLink: studynotionGithubLink,
     demoLink: "https://studynotion-app-one.vercel.app/",
+  },
+  {
+    id: 6,
+    imgPath: hotel2,
+    isBlog: false,
+    title: "Hotel IQ",
+    description: [
+      "Developed a comprehensive hotel management android application allowing administrators to register and authenticate employees, ensuring secure access to sensitive data within the app.",
+      "Implemented CRUD functionality for managing employee details, room allocations, customer information, and staff profiles, providing users with full control over their data.",
+      "Integrated SQLite database for efficient storage and retrieval of data.",
+      "Designed intuitive user interfaces for managing employee, room, customer, and staff details, optimizing user experience.",
+    ],
+    ghLink: "https://github.com/abhijittemkar/HotelIQ",
   },
 ];
 function Projects() {
